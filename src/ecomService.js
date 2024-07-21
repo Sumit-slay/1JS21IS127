@@ -1,7 +1,7 @@
 const axios = require('axios');
 const dotenv = require('dotenv');
 
-dotenv.config();  // Make sure to load environment variables
+dotenv.config(); 
 
 const AUTH_TOKEN = process.env.BEARER_TOKEN;
 const BASE_URL = 'http://20.244.56.144/test/companies';
